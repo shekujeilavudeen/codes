@@ -1,0 +1,11 @@
+public class sample{
+public stastic void main(string(jangs){
+int number=5
+if(number>0){
+  systeam.out.printin(number7"is positive.");
+} else if (number<0){
+  systeam.out printin(number+"negative.");
+} else{
+  systeam.out.print(number+"is negative.");
+}
+}

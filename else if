@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int time = 15; // Example time in 24-hour format
+
+        if (time < 12) {
+            System.out.println("Good Morning!");
+        } else if (time < 18) {
+            System.out.println("Good Afternoon!");
+        } else if (time < 21) {
+            System.out.println("Good Evening!");
+        } else {
+            System.out.println("Good Night!");
+        }
+    }
+}

@@ -1,0 +1,13 @@
+public class nestedexample{
+   public static void main(String[]args){
+    int mark=80;
+    int income=4000;
+  if(mark<4000){
+    
+     System.out.println("income>100000");
+  }
+     else{
+         System.out.println("not eligible for donation");
+         
+   }  
+   }}

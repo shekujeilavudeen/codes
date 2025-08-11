@@ -1,0 +1,32 @@
+public class SquareExample {
+    public static void main(String[] args) {
+        int number = 5;
+        int square = number * number;
+        System.out.println("Square of " + number + " is: " + square);
+    }
+}
+2. Using Math.pow()
+Java
+
+Copy code
+public class SquareExample {
+    public static void main(String[] args) {
+        int number = 5;
+        double square = Math.pow(number, 2);
+        System.out.println("Square of " + number + " is: " + (int)square);
+    }
+}
+3. Using a Method
+Java
+
+Copy code
+public class SquareExample {
+    public static void main(String[] args) {
+        int number = 5;
+        System.out.println("Square of " + number + " is: " + square(number));
+    }
+
+    public static int square(int num) {
+        return num * num;
+    }
+}

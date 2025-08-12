@@ -1,0 +1,19 @@
+public class FindMinimum {
+    public static void main(String[] args) {
+        int[] numbers = {12, 5, 8, 20, 3, 15}; // Example array
+        
+        // Initialize 'min' with the first element of the array
+        int min = numbers[0]; 
+        
+        // Iterate through the array starting from the second element
+        for (int i = 1; i < numbers.length; i++) {
+            // If the current element is smaller than 'min', update 'min'
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        
+        // Print the minimum element found
+        System.out.println("The minimum element is: " + min);
+    }
+}

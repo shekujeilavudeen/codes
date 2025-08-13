@@ -1,0 +1,9 @@
+public class PrintUppercaseAlphabets {
+    public static void main(String[] args) {
+        char ch;
+        for (ch = 'A'; ch <= 'Z'; ++ch) {
+            System.out.print(ch + " "); // Prints each character followed by a space
+        }
+        System.out.println(); // Prints a new line at the end
+    }
+}

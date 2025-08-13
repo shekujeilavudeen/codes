@@ -1,0 +1,15 @@
+public class RemoveWhitespace {
+
+    public static void main(String[] args) {
+        String originalString = "  This is a string with  multiple   spaces.  ";
+        System.out.println("Original string: \"" + originalString + "\"");
+
+        // Using replaceAll() with "\\s" regex to remove all whitespace characters
+        String stringWithoutWhitespace = originalString.replaceAll("\\s", "");
+        System.out.println("String without whitespace: \"" + stringWithoutWhitespace + "\"");
+
+        // Example to replace multiple consecutive spaces with a single space
+        String stringWithSingleSpaces = originalString.replaceAll("\\s+", " ");
+        System.out.println("String with single spaces: \"" + stringWithSingleSpaces + "\"");
+    }
+}

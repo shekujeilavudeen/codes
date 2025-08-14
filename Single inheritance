@@ -1,0 +1,32 @@
+// Superclass (Parent Class)
+class Animal {
+    String name;
+
+    public void eat() {
+        System.out.println(name + " is eating.");
+    }
+}
+
+// Subclass (Child Class) extending the Animal class
+class Dog extends Animal {
+    String breed;
+
+    public void bark() {
+        System.out.println(name + " (a " + breed + ") is barking.");
+    }
+}
+
+public class SingleInheritanceExample {
+    public static void main(String[] args) {
+        // Create an object of the subclass
+        Dog myDog = new Dog();
+
+        // Access inherited properties and methods from the superclass
+        myDog.name = "Buddy";
+        myDog.eat(); // Calls the eat() method from the Animal class
+
+        // Access properties and methods specific to the subclass
+        myDog.breed = "Golden Retriever";
+        myDog.bark(); // Calls the bark() method from the Dog class
+    }
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner; // Import the Scanner class to read input
+
+public class NameProgram {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object
+
+        System.out.print("Enter your name: "); // Prompt the user for input
+        String userName = scanner.nextLine(); // Read the entire line of input as a string
+
+        System.out.println("Hello, " + userName + "!"); // Print a greeting with the entered name
+
+        scanner.close(); // Close the scanner to release resources
+    }
+}
